@@ -33,7 +33,7 @@ function App() {
   ];
 
   return (
-    <div className="bg-gradient-to-b from-purple-100 via-pink-50 to-white text-purple-900 min-h-screen font-sans">
+    <div className="bg-gradient-to-r from-purple-100 via-red-100 to-green-100 text-purple-900 min-h-screen font-sans">
 
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center h-screen text-center px-6">
