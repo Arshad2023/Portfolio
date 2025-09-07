@@ -28,8 +28,8 @@ function App() {
   const projects = [
     { title: "BubbleSort Game", desc: "Interactive sorting game built with React", link: "https://github.com/Arshad2023/BubbleSortGame" },
     { title: "Automation Framework", desc: "Java Selenium automation project - Under Development", link: "#" },
-    { title: "Image Fetching App", desc: "A React app to fetch and display images from an API..", link: "#" },
-    { title: "Crud-App", desc: "A React app to perform CRUD operation.", link: "#" },
+    { title: "Image Fetching App", desc: "A React app to fetch and display images from an API..", link: "https://github.com/Arshad2023/ImageFetchApp" },
+    { title: "Crud-App", desc: "A React app to perform CRUD operation.", link: "https://github.com/Arshad2023/Crud-App" },
   ];
 
   return (
@@ -52,7 +52,7 @@ function App() {
           transition={{ delay: 0.5, duration: 1 }}
           className="text-lg md:text-xl mb-6 max-w-3xl"
         >
-          Automation Maestro | Turning complex workflows into seamless, error-free experiences.
+          Automation Expert | Turning complex workflows into seamless, error-free experiences.
         </motion.p>
 
         <motion.div
