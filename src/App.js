@@ -104,7 +104,7 @@ function App() {
           {/* Experience Card */}
           <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-purple-400">
             <h3 className="text-2xl font-bold text-purple-600">LTIMindtree</h3>
-            <p className="text-gray-600 font-medium"> QA Automation Engieer | 2022 - Present</p>
+            <p className="text-gray-600 font-medium"> QA Automation Engineer | 2022 - Present</p>
             <ul className="mt-3 list-disc list-inside text-gray-700 space-y-2">
               <li>Worked on Selenium Java TestNG framework with POM and Excel integration.</li>
               <li>Experience in automation testing tools like TestComplete & Worksoft Certify.</li>
