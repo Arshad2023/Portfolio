@@ -94,6 +94,28 @@ function App() {
           ))}
         </div>
       </section>
+      {/* Work Experience Section */}
+      <section className="px-6 py-20 bg-gradient-to-r from-green-50 to-green-200">
+        <h2 className="text-4xl font-bold mb-10 text-center text-purple-700">
+          Work Experience
+        </h2>
+
+        <div className="max-w-5xl mx-auto space-y-8">
+          {/* Experience Card */}
+          <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-purple-400">
+            <h3 className="text-2xl font-bold text-purple-600">LTIMindtree</h3>
+            <p className="text-gray-600 font-medium"> QA Automation Engieer | 2022 - Present</p>
+            <ul className="mt-3 list-disc list-inside text-gray-700 space-y-2">
+              <li>Worked on Selenium Java TestNG framework with POM and Excel integration.</li>
+              <li>Experience in automation testing tools like TestComplete & Worksoft Certify.</li>
+              <li>Performed API testing using Postman and integrated with Azure DevOps pipelines.</li>
+              <li>Collaborated in Agile teams to deliver high-quality software solutions.</li>
+            </ul>
+          </div>
+
+          
+        </div>
+      </section>
 
       {/* Projects Section */}
       <section className="px-6 py-20 bg-gradient-to-l from-blue-50 to-blue-100">
