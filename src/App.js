@@ -24,11 +24,12 @@ const ProjectCard = ({ title, desc, link }) => (
 );
 
 function App() {
-  const skills = ["Selenium", "JAVA", "JavaScript", "Python", "TestComplete", "JIRA", "Worksoft Certify", "Postman", "Azure DevOps", "React", "Node.js", "Tailwind"];
+  const skills = ["Selenium", "JAVA", "BDD", "Cucumber", "JavaScript", "RestAssured", "TestComplete", "JIRA", "Postman", "Azure DevOps", "React", "Node.js", "Tailwind"];
   const projects = [
-    { title: "BubbleSort Game", desc: "Interactive sorting game built with React", link: "https://github.com/Arshad2023/BubbleSortGame" },
-    { title: "Automation Framework", desc: "Java Selenium automation project - Under Development", link: "#" },
-    { title: "Image Fetching App", desc: "A React app to fetch and display images from an API..", link: "https://github.com/Arshad2023/ImageFetchApp" },
+    { title: "API Automation Framework", desc: "RestAssured, JAVA, TestNg", link: "https://github.com/Arshad2023/API_Automation_Framework" },
+    { title: "UI Automation Framework", desc: "Selenium, Java, TestNg, BDD, Cucumber", link: "https://github.com/Arshad2023/Selenium_Automation_Framework" },
+    { title: "BubbleSort Game", desc: "Interactive sorting game built with React", link: "https://arshad2023.github.io/BubbleSortGame/" },
+    { title: "Image Fetching App", desc: "A React app to fetch and display images from an API..", link: "https://arshad2023.github.io/ImageFetchApp/" },
     { title: "Crud-App", desc: "A React app to perform CRUD operation.", link: "https://github.com/Arshad2023/Crud-App" },
   ];
 
@@ -41,7 +42,7 @@ function App() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-6xl md:text-7xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-lavender-500 to-green-400"
+          className="text-6xl md:text-7xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-purple-500 to-green-400"
         >
           Arshad Rangrez
         </motion.h1>
@@ -81,7 +82,7 @@ function App() {
       <section className="px-6 py-20 bg-gradient-to-r from-pink-50 to-purple-400">
         <h2 className="text-4xl font-bold mb-6 text-center text-purple-700">About Me</h2>
         <p className="max-w-3xl mx-auto text-center text-lg md:text-xl leading-relaxed text-gray-800">
-          Arshad Rangrez, an enthusiastic Automation Tester with 3+ years of experience. I specialize in crafting efficient, reliable software solutions, solving complex challenges, and turning bugs into learning opportunities with precision and creativity.
+          Arshad Rangrez, an enthusiastic Automation Tester with 4 years of experience. I specialize in crafting efficient, reliable software solutions, solving complex challenges, and turning bugs into learning opportunities with precision and creativity.
         </p>
       </section>
 
@@ -94,26 +95,46 @@ function App() {
           ))}
         </div>
       </section>
-      {/* Work Experience Section */}
+            {/* Work Experience Section */}
       <section className="px-6 py-20 bg-gradient-to-r from-green-50 to-green-200">
         <h2 className="text-4xl font-bold mb-10 text-center text-purple-700">
           Work Experience
         </h2>
 
         <div className="max-w-5xl mx-auto space-y-8">
-          {/* Experience Card */}
+
+          {/* Experience Card 1 (TOP) */}
+          <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-green-400">
+            <h3 className="text-2xl font-bold text-green-600">Edelweiss</h3>
+            <p className="text-gray-600 font-medium">
+              Senior QA Automation Engineer | 2025 - Present
+            </p>
+            <ul className="mt-3 list-disc list-inside text-gray-700 space-y-2">
+              <li>Worked on a trading-based financial application for Edelweiss client.</li>
+              <li>Developed and maintained automation scripts using Selenium WebDriver with Java.</li>
+              <li>Implemented and worked on a Keyword-Driven Framework for scalable test automation.</li>
+              <li>Used Postman for API testing and validation of backend services.</li>
+              <li>Worked with tools like SolarPuTTY, and WinSCP for environment access and log verification.</li>
+              <li>Logged and tracked defects using JIRA and collaborated with developers for resolution.</li>
+            </ul>
+          </div>
+
+          {/* Experience Card 2 */}
           <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-purple-400">
             <h3 className="text-2xl font-bold text-purple-600">LTIMindtree</h3>
-            <p className="text-gray-600 font-medium"> QA Automation Engineer | 2022 - Present</p>
+            <p className="text-gray-600 font-medium">
+              QA Automation Engineer | 2022 - 2025
+            </p>
             <ul className="mt-3 list-disc list-inside text-gray-700 space-y-2">
-              <li>Worked on Selenium Java TestNG framework with POM and Excel integration.</li>
-              <li>Experience in automation testing tools like TestComplete & Worksoft Certify.</li>
-              <li>Performed API testing using Postman and integrated with Azure DevOps pipelines.</li>
+              <li>Design, develop, and maintain automation test scripts using Selenium WebDriver with Java.</li>
+              <li>Implement BDD framework using Cucumber for better collaboration with business stakeholders</li>
+              <li>Develop and execute API automation tests using RestAssured</li>
+              <li>Perform manual API testing using Postman (request validation, status codes, response verification)</li>
+              <li>Identify, log, and track bugs using defect management tools (JIRA, Azure DevOps)</li>
               <li>Collaborated in Agile teams to deliver high-quality software solutions.</li>
             </ul>
           </div>
 
-          
         </div>
       </section>
 
